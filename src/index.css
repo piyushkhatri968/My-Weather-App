@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  text-align: center;
+}
+
+.Search-Box-Container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card_container{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.weatherinfo p{
+  font-size: 1rem;
+}
